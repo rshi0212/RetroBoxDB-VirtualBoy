@@ -1,0 +1,44 @@
+{
+  "snapshot_id": 1,
+  "console_id": 28,
+  "fetched_at": "2026-10-06T13:25:35.043067+00:00",
+  "ra_games_with_achievements": 43,
+  "status_totals": {
+    "local": 41,
+    "local_other_platform": 0,
+    "dat_only": 0,
+    "nointro_db_only": 0,
+    "unmatched": 2
+  },
+  "by_category": {
+    "Official": {
+      "local": 21
+    },
+    "Homebrew": {
+      "local": 18,
+      "unmatched": 2
+    },
+    "Prototype": {
+      "local": 2
+    }
+  },
+  "sibling_databases": [],
+  "shared_console_scope": false,
+  "local_roms_with_achievements": 51,
+  "rule": "RA hash = MD5 of the complete file; exact hash equality only",
+  "local_games_by_source": {
+    "nointro": 2,
+    "nointro,retroachievements": 30,
+    "retroachievements": 9
+  },
+  "retroachievements_collections": {
+    "RA - Nintendo Virtual Boy": {
+      "in_nointro_dat": 31,
+      "ra_only": 18
+    }
+  },
+  "collection_files_with_unknown_ra_hash": 0,
+  "missing_by_category": {
+    "Homebrew": 2
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "platform": "virtualboy",
+  "started_at": "2026-10-06T13:23:15.630967+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Nintendo - Virtual Boy (Parent-Clone)",
+      "version": "20260428-015207"
+    },
+    {
+      "id": 2,
+      "name": "Nintendo - Virtual Boy (Parent-Clone)",
+      "version": "20260804-192036"
+    },
+    {
+      "id": 3,
+      "name": "Nintendo - Virtual Boy (Parent-Clone)",
+      "version": "20260805-170231"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Nintendo - Virtual Boy",
+      "/mnt/MyShare/No-Intro/Nintendo - Virtual Boy (Aftermarket)",
+      "/mnt/MyShare/No-Intro/Nintendo - Virtual Boy (Private)"
+    ],
+    "families": 52,
+    "family_assignment": {
+      "family_from_dat_or_db": 126,
+      "family_from_title": 1
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 122355712,
+    "stored_group_bytes": 22721474,
+    "zips": 127,
+    "sidecar_files": 0,
+    "seconds": 112
+  },
+  "scan": {
+    "1": {
+      "match": 78,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 0
+    },
+    "2": {
+      "match": 78,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 2
+    },
+    "3": {
+      "match": 78,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 2
+    }
+  },
+  "dat_diff": {
+    "1->3": {
+      "unchanged": 78,
+      "added": 2
+    },
+    "2->3": {
+      "unchanged": 80
+    }
+  },
+  "catalog": {
+    "games": 53,
+    "releases": 80,
+    "old_dat_games_linked": 158,
+    "rom_release_links": 78
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "20260804-192036",
+    "archives": 81,
+    "files": 81,
+    "files_with_local_payload": 78,
+    "sources": 152,
+    "dumplog_rows": 81,
+    "dat_links": 238,
+    "archive_release_links": 77,
+    "hardware_assertions": 76,
+    "dumplog_status": {
+      "verified": 21,
+      "trusted_unverified": 58,
+      "bad": 1,
+      "unverified": 1
+    },
+    "anomalies": {
+      "file_without_sha256": 15
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 78,
+      "2": 78,
+      "3": 78
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 28,
+    "fetched_at": "2026-10-06T13:25:35.043067+00:00",
+    "games": 56,
+    "hashes": 66,
+    "games_with_achievements": 43,
+    "hashes_of_games_with_achievements": 53,
+    "local_roms_matched": 33,
+    "ra_games_with_local_rom": 32,
+    "dat_entries_matched": 99,
+    "ra_games_in_any_dat": 32,
+    "hashes_with_achievements_unexplained": 20,
+    "by_category_local": {
+      "Homebrew": 9,
+      "Official": 21,
+      "Prototype": 2
+    }
+  },
+  "game_names": {
+    "source_name": "Nintendo - Virtual Boy.csv",
+    "source_sha256": "923f08e04d47a42e81f8da582d2f6ac005f063b9b1be39468d8927788087c4e7",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 33,
+    "rows_with_chinese": 33,
+    "unique_chinese_names": 23,
+    "normalized_titles": 31,
+    "matched_rows": 32,
+    "matched_rows_with_chinese": 32,
+    "matched_releases": 32,
+    "releases_with_chinese": 32,
+    "matched_games": 24,
+    "matched_roms": 32,
+    "matched_links": 32,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 1,
+    "unresolved_rows": [
+      {
+        "row_number": 7,
+        "name_en": "Insmouth no Yakata (Japan)",
+        "name_cn": "印斯茅斯馆",
+        "status": "unmatched"
+      }
+    ],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 31,
+      "qualified_title": 1
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 84,
+    "archive_plans_checked": 88,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 88,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 342,
+      "objects": 172,
+      "chunks": 473,
+      "roms": 79,
+      "dat_sets": 3,
+      "dat_roms": 238,
+      "transformations": 0,
+      "packages": 234,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 152978128,
+      "historical_zip_bytes_not_stored": 39895849,
+      "unique_raw_chunk_bytes": 122569424,
+      "stored_chunk_bytes": 22757517,
+      "header_body_recipes": 0,
+      "zip_plans": 88,
+      "file_occurrences": 342,
+      "catalog_objects": 172
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 78
+      },
+      {
+        "dat_set_id": 2,
+        "status": "matched",
+        "count": 78
+      },
+      {
+        "dat_set_id": 2,
+        "status": "unmatched",
+        "count": 2
+      },
+      {
+        "dat_set_id": 3,
+        "status": "matched",
+        "count": 78
+      },
+      {
+        "dat_set_id": 3,
+        "status": "unmatched",
+        "count": 2
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 468,
+        "raw_bytes": 122355712,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 5,
+        "raw_bytes": 213712,
+        "stored_bytes": 36043
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 122355712,
+      "stored_bytes": 22721474
+    },
+    "platform": "virtualboy",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 122355712,
+      "stored_bytes": 22721474
+    }
+  },
+  "finished_at": "2026-10-06T13:25:45.817596+00:00",
+  "seconds": 151,
+  "database_bytes": 26951680
+}
